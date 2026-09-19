@@ -1,0 +1,86 @@
+{
+  "city": {
+    "name": "Guwahati",
+    "state": "Assam",
+    "country": "India",
+    "center": [91.7352, 26.1619],
+    "sectors": 15
+  },
+  "corridors": [
+    {
+      "id": "alpha",
+      "name": "Layout Alpha",
+      "title": "Slime-Mold Bio-Arterial Viaduct",
+      "score": 94,
+      "capex": 65.4,
+      "bottlenecks_cleared": 4,
+      "flow_increase": 41,
+      "delay_minutes": 17.8,
+      "population_served": 450000
+    },
+    {
+      "id": "beta",
+      "name": "Layout Beta",
+      "title": "North River Amphibious Ring",
+      "score": 88,
+      "capex": 71.2,
+      "bottlenecks_cleared": 3,
+      "flow_increase": 34,
+      "delay_minutes": 21.2,
+      "population_served": 420000
+    },
+    {
+      "id": "gamma",
+      "name": "Layout Gamma",
+      "title": "Deepor Beel Elevated Causeway",
+      "score": 85,
+      "capex": 78.0,
+      "bottlenecks_cleared": 3,
+      "flow_increase": 38,
+      "delay_minutes": 19.5,
+      "population_served": 380000
+    },
+    {
+      "id": "delta",
+      "name": "Layout Delta",
+      "title": "Dispur-Zoo Road Siphon Link",
+      "score": 82,
+      "capex": 52.5,
+      "bottlenecks_cleared": 2,
+      "flow_increase": 29,
+      "delay_minutes": 23.4,
+      "population_served": 320000
+    },
+    {
+      "id": "epsilon",
+      "name": "Layout Epsilon",
+      "title": "Riverine Barge & Bund Artery",
+      "score": 79,
+      "capex": 44.0,
+      "bottlenecks_cleared": 2,
+      "flow_increase": 26,
+      "delay_minutes": 25.1,
+      "population_served": 280000
+    }
+  ],
+  "scenarios": {
+    "moderate": {
+      "name": "Moderate (5-year)",
+      "water_level": "50.5m",
+      "population_affected": 120000,
+      "severity": "moderate"
+    },
+    "severe": {
+      "name": "Severe (10-year)",
+      "water_level": "51.5m",
+      "population_affected": 200000,
+      "severity": "severe"
+    },
+    "catastrophic": {
+      "name": "Catastrophic (50-year)",
+      "water_level": "52.5m",
+      "population_affected": 350000,
+      "severity": "catastrophic"
+    }
+  }
+}
